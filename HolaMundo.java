@@ -29,6 +29,9 @@ public class HolaMundo {
         }else{
            System.out.println("Puedes salir tranqui bro");
         }
+        //If ternario
+        String aguacero = (lluvia.equals("si")) ? "Use sombrilla. Garde la ropa":"Salga tranquilo";
+        System.out.println(aguacero);
     }
-            
+    
 }
